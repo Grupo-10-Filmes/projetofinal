@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style-base.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/style-home.css" media="screen" />
     <title>Movie City</title>
 </head>
 
@@ -35,27 +37,31 @@
         </div>
     </nav>
     <main>
-        <section>
-            <div class="intro-bg">
-                <img src="./assets/img/img-home/sala-cinema.jpg" alt="Sala de cinema">
+        <section class="hero">
+            <div class="hero-bg">
+                <!-- <img src="./assets/img/img-home/sala-cinema.jpg" alt="Sala de cinema"> -->
             </div>
             <div class="container">
-                <h1>Cinema Incrível</h1>
-                <p>Descubra emocionantes estreias cinematográficas! De dramas intensos a comédias hilariantes, encontre seu próximo filme favorito aqui.</p>
-                <button>Ver filmes</button>
+                <div class="content-hero">
+                    <h1 class="title">Cinema Incrível</h1>
+                    <h2 class="title-5">Descubra emocionantes estreias cinematográficas! De dramas intensos a comédias hilariantes, encontre seu próximo filme favorito aqui.</h2>
+                    <button class="btn btn--primary">Ver filmes</button>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="cards-home">
             <div class="container">
                 <h2>Filmes em destaque</h2>
-                <div class="card">
-                    <img src="./assets/img/img-home/filme-o-pai-o.png" alt="Filme Ó poi ó">
-                </div>
-                <div class="card">
-                    <img src="./assets/img/img-home/filme-as-marvels.png" alt="filme As Marvels">
-                </div>
-                <div class="card">
-                    <img src="./assets/img/img-home/filme-trolls-3-.png" alt="filme Trolls">
+                <div class="content-cards-home">
+                    <div class="card-home">
+                        <img src="./assets/img/img-home/filme-o-pai-o.png" alt="Filme Ó poi ó">
+                    </div>
+                    <div class="card-home">
+                        <img src="./assets/img/img-home/filme-as-marvels.png" alt="filme As Marvels">
+                    </div>
+                    <div class="card-home">
+                        <img src="./assets/img/img-home/filme-trolls-3-.png" alt="filme Trolls">
+                    </div>
                 </div>
             </div>
         </section>
@@ -63,7 +69,7 @@
     <footer>
         <div class="container">
             <img src="./assets/img/logo.png" alt="Logo Movie City">
-            <p>® 2023 Movie City. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+            <p class="text-3">® 2023 Movie City. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
         </div>
     </footer>
 </body>
