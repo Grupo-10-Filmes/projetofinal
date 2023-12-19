@@ -1,0 +1,78 @@
+head{width: 1280px;
+    height: 71px;
+    flex-shrink: 0;
+    background-color: #000;
+}
+
+/*Plano de Fundo escuro*/
+body{
+    background: linear-gradient(0deg, rgba(31,31,43,1) 0%, rgba(47,48,59,1) 100%);
+    width: 1280px;
+    height: 2137px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+div.card,img{
+    margin-left: 20px;
+}
+
+div.Titulo{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: bold;
+    align-items: center;
+    margin-left: 50px;
+}
+div.Caracteristicas,ul{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    margin-top:-300px;
+    margin-left:290px;
+    margin-right:-80px;
+    display: inline-block;
+    gap: 20px;
+}
+ul.Sinopse{
+    margin-left:-300px;
+    margin-top:300px;
+}
+.Trailers, title,h2{
+    color: white; 
+    font-size: 32px; 
+    font-family: Roboto; 
+    font-style: bold;
+    padding-right: 20px;
+}
+
+div.Trailers,img{
+    width: 365px;
+    height: 500px;
+    flex-shrink: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #000;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    height: 126px;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .text-3{
+    color: #fff;
+    padding-top: 8px 0;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
