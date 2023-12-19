@@ -1,0 +1,77 @@
+.btn--primary{
+    background-color: #f0d701;
+    margin-top: 20px;
+}
+
+.hero .container {
+    margin-top: 32px;
+    position: relative;
+}
+.hero .content-hero{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.hero .hero-bg {
+    width: 100%;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-image: url(/assets/img/img-home/sala-cinema.jpg);
+}
+footer{
+    background-color: #000;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    height: 126px;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .text-3{
+    color: #fff;
+    padding-top: 8px 0;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+@media (min-width: 80em) {
+    .hero .content-hero{
+        width: 996px;
+        padding: 138px 0px;
+    }
+    .hero .content-hero h1 {
+        margin-bottom: 30px;
+    }
+    .hero .content-hero h2 {
+        max-width: 355px;
+        margin-bottom: 20px;
+    }
+    .cards-home {
+        padding: 64px 0;
+    }
+    .cards-home .container h2{
+        margin-bottom: 16px;
+    }
+    .cards-home .content-cards-home{
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 16px;
+    }
+    .cards-home .content-cards-home .card-home{
+        width: 100%;
+    }
+    .cards-home .content-cards-home img{
+        width: 100%;
+        height: 100%;
+        max-height: 365px;
+        object-fit: cover;
+    }
+
+}
