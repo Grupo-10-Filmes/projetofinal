@@ -1,6 +1,5 @@
 .cards-generos {
     padding: 0 32px 32px;
-    text-align: center;
 }
 .cards-generos .container h2{
     padding: 32px 0 16px;
@@ -9,7 +8,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 16px;
 }
 .cards-generos .content-cards-generos .card-genero{
@@ -20,4 +19,27 @@
     height: 100%;
     max-height: 282px;
     object-fit: cover;
+}
+.card{
+    padding-top: 40px;
+}
+footer{
+    background-color: #000;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    height: 98px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer .container .text-3{
+    color: #fff;
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
