@@ -22,28 +22,6 @@ main{
     background: rgb(31,31,43);
     background: linear-gradient(0deg, rgba(31,31,43,1) 0%, rgba(47,48,59,1) 100%);
 }
-fieldset {
-  border: 0;
-  padding: 0;
-  margin: 0;
-}
-
-.btn {
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    border: 0;
-    border-radius: 8px;
-    box-sizing: border-box;
-    cursor: pointer;
-    padding: 12px 60px;
-    text-align: center;
-    text-decoration: none;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
 
 a,
 a:visited {
@@ -56,7 +34,7 @@ a:visited {
         padding-left: 10em;
         padding-bottom: 5em;
         display: inline-block;
-        border-radius: 1.5em;
+        border-radius: 1em;
     }
   
   .title {
@@ -90,21 +68,39 @@ a:visited {
     line-height: 1.4;
   }
 
-.container {
+.img {
+    border-radius: 1em;
+    object-fit: cover;
+    width: 365px;
+    height: 500px;
+}
+
+.estreias > div {
     display: grid;
-    grid-template-columns: 365px 365px 365px;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 25px;
     align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.em-breve > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:repeat(1, 1fr);
+  gap: 30px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .card {
     width: 365px;
     height: 500px;
-    border-radius: 2em;
-}
-
-img {
-    border-radius: 1.5em;
+    border-radius: 1em;
+    object-fit: fill;
 }
   
 footer{
@@ -113,13 +109,14 @@ footer{
     color: #fff;
 }
 
-footer .container{
+.footer {
     display: flex;
     flex-direction: column;
     height: 126px;
     justify-content: center;
     align-items: center;
 }
+
 footer .container .text-3{
     color: #fff;
     padding-top: 8px 0;
