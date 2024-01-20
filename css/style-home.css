@@ -17,6 +17,7 @@
     position: relative;
     z-index: 1;
     padding: 32px;
+    margin-top: 86px;
 }
 .hero .hero-bg {
     width: 100%;
@@ -32,7 +33,6 @@
 }
 .cards-home .container h2{
     padding: 32px 0 16px;
-    text-align: left;
 }
 .cards-home .content-cards-home {
     width: 100%;
@@ -84,6 +84,7 @@ footer img{
     .hero .content-hero{
         width: 100%;
         padding: 138px 0px;
+        margin-top: 0;
     }
     .hero .content-hero h1 {
         margin-bottom: 30px;
@@ -98,6 +99,7 @@ footer img{
     .cards-home .container h2{
         margin-bottom: 16px;
         padding: 0px;
+        text-align: left;
     }
     .cards-home .content-cards-home{
         width: 100%;
