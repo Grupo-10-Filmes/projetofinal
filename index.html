@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./css/style-base.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./css/style-nav.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./css/style-home.css" media="screen" />
@@ -11,31 +18,33 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar  navbar-dark bg-dark navbar-expand-lg">
         <div class="container">
-            <div class="content-logo">
-                <a class="navbar-logo" href="#">
-                    <img src="./assets/img/logo.png" alt="Movie City">
-                </a>
-            </div>
-            <div class="content-links">
-                <ul class="links">
-                    <li>
-                        <a href="index.html">Home</a>
+
+            <img src="./assets/img/logo.png" class="navbar-brand">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li>
-                        <a href="estreias.html">Filmes em estreia</a>
+                    <li class="navbar-item">
+                        <a href="estreias.html" class="nav-link">Filmes em estreia</a>
                     </li>
-                    <li>
-                        <a href="generos.html">Gêneros</a>
+                    <li class="navbar-item">
+                        <a href="generos.html" class="nav-link">Gêneros</a>
                     </li>
-                    <li>
-                        <a href="oscar2023.html">Oscar</a>
+                    <li class="navbar-item">
+                        <a href="oscar2023.html" class="nav-link">Oscar</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <main>
         <section class="hero">
             <div class="hero-bg">

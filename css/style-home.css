@@ -32,6 +32,7 @@
 }
 .cards-home .container h2{
     padding: 32px 0 16px;
+    text-align: left;
 }
 .cards-home .content-cards-home {
     width: 100%;
