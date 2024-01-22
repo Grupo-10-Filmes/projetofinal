@@ -36,6 +36,19 @@ a:visited {
         display: inline-block;
         border-radius: 1em;
     }
+
+@media (min-width: 80em) {
+    .container {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
   
   .title {
     font-family: 'Lato', sans-serif;
