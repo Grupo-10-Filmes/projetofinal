@@ -1,6 +1,15 @@
-footer{
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+footer {
     background-color: #000;
 }
+
+
 footer .container{
     display: flex;
     flex-direction: column;
@@ -19,6 +28,7 @@ footer img{
 }
 
 @media (min-width: 80em) {
+
     .oscar, .Vencedor {
         padding-left: 10em;
         padding-bottom: 5em;
@@ -26,12 +36,13 @@ footer img{
     }
 
     .Vencedor {
-        padding-top: 2em;
+        padding-top: 7em;
     }
 
     .Vencedor .img-a a img {
         border-radius: 2em;
         display: inline-block;
+        
     }
 
     .oscar .primeira_linha {
