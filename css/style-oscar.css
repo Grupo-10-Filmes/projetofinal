@@ -9,7 +9,6 @@ footer {
     background-color: #000;
 }
 
-
 footer .container{
     display: flex;
     flex-direction: column;
@@ -32,25 +31,14 @@ img {
     height: auto;
 }
 
-.vencedor h2 {
-    text-align: left;
-}
-
-
-.oscar, .vencedor {
-    padding-left: 10em;
-    padding-bottom: 5em;
-    display: inline-block;
-}
-
 .vencedor {
     padding-top: 7em;
+    padding-bottom: 4%;
 }
 
 .vencedor .img-a a img {
     border-radius: 2em;
     display: inline-block;
-    
 }
 
 .indicados .primeira_linha {
@@ -169,4 +157,141 @@ padding-bottom: 3em;
     object-fit: cover;
     border-radius: 3em;
     margin-right: 6em;
+}
+
+@media (min-width: 80em) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .vencedor h2 {
+        text-align: left;
+    }
+
+    
+    .vencedor .img-a a img {
+        border-radius: 2em;
+        display: inline-block;
+        
+    }
+    
+    .indicados .primeira_linha {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 16px;
+        
+    }
+    
+    .indicados .primeira_linha p { 
+        color: #fff;
+        padding-top: none;
+        padding-bottom: 3em;
+    }
+    
+    .indicados .primeira_linha .nada_de_novo_no_front a img {
+    width: 20em;
+    height: 15em;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 3em;
+    margin-right: 6em;
+    }
+    
+    .indicados .primeira_linha .avatar a img {
+    width: 20em;
+    height: 15em;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 3em;
+    margin-right: 6em;
+    }
+    
+    .indicados .primeira_linha .os_banshees_de_inisherin a img {
+    width: 20em;
+    height: 15em;
+    display: inline-block;
+    object-fit: fill;
+    border-radius: 3em;
+    margin-right: 6em;
+    }
+    
+    
+    .indicados .segunda_linha {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 16px;
+    }
+    .indicados .segunda_linha p { 
+    color: #fff;
+    padding-bottom: 3em;
+    
+    }
+    
+    .indicados .segunda_linha .elvis a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;
+        margin-right: 6em;
+    }
+    
+    .indicados .segunda_linha .fabelmans a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;
+        margin-right: 6em;
+    }
+    .indicados .segunda_linha .tár a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;
+        margin-right: 6em;
+    }
+    
+    .indicados .terceira_linha {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 16px;
+    }
+    
+    .indicados .terceira_linha p { 
+        color: #fff;
+        padding-bottom: 3em;
+    }
+    
+    .indicados .terceira_linha .maverick a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;    margin-right: 6em;
+        }
+    
+    .indicados .terceira_linha .triângulo_tristeza a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;
+        margin-right: 6em;
+    }
+    
+    .indicados .terceira_linha .entre_mulheres a img {
+        width: 20em;
+        height: 15em;
+        display: inline-block;
+        object-fit: cover;
+        border-radius: 3em;
+        margin-right: 6em;
+    }
+    
 }
