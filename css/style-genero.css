@@ -18,7 +18,7 @@
     max-height: 282px;
     object-fit: cover;
 }
-.card {
+.card-principal-genero {
     padding-top: 40px;
 }
 footer {
@@ -62,7 +62,7 @@ footer img {
         max-height: 282px;
         object-fit: cover;
     }
-    .card {
+    .card-principal-genero {
         padding-top: 40px;
     }
     footer {
