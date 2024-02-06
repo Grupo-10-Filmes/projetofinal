@@ -1,3 +1,14 @@
+.card-principal-genero {
+    padding-top: 40px;
+}
+.card-principal-genero .img-principal {
+    padding-top: 7em;
+    padding-bottom: 4%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 .cards-generos {
     padding: 0 32px 32px;
 }
@@ -17,9 +28,6 @@
     height: auto; 
     max-height: 282px;
     object-fit: cover;
-}
-.card-principal-genero {
-    padding-top: 40px;
 }
 footer {
     background-color: #000;
@@ -41,47 +49,53 @@ footer img {
     object-fit: contain;
 }
 
-@media (min-width: 80em) {
-    .cards-generos {
-        padding: 0 32px 32px;
-    }
-    .cards-generos .container h2 {
-        padding: 32px 0 16px; 
-    }
-    .cards-generos .content-cards-generos {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-    }
-    .cards-generos .content-cards-generos .card-genero {
-        flex: 1; 
-    }
-    .cards-generos .content-cards-generos img {
-        width: 100%;
-        height: auto; 
-        max-height: 282px;
-        object-fit: cover;
-    }
-    .card-principal-genero {
-        padding-top: 40px;
-    }
-    footer {
-        background-color: #000;
-    }
-    footer .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
-    footer .container .text-3 {
-        color: #fff;
-        text-align: center;
-    }
-    footer img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
-    }
+@media (min-width: 80em) {.card-principal-genero {
+    padding-top: 40px;
 }
+.card-principal-genero .img-principal {
+    padding-top: 7em;
+    padding-bottom: 4%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cards-generos {
+    padding: 0 32px 32px;
+}
+.cards-generos .container h2 {
+    padding: 32px 0 16px; 
+}
+.cards-generos .content-cards-generos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.cards-generos .content-cards-generos .card-genero {
+    flex: 1; 
+}
+.cards-generos .content-cards-generos img {
+    width: 100%;
+    height: auto; 
+    max-height: 282px;
+    object-fit: cover;
+}
+footer {
+    background-color: #000;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer .container .text-3 {
+    color: #fff;
+    text-align: center;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}}
