@@ -10,7 +10,7 @@ img {
     height: auto;
 }
 .cards-generos {
-    padding: 0 32px 32px;
+    padding: 0;
 }
 .cards-generos .container h2 {
     padding: 32px 0 16px; 
@@ -28,6 +28,23 @@ img {
     height: auto; 
     max-height: 282px;
     object-fit: cover;
+}
+.carousel-inner{
+    padding-top: 32px;
+}
+.carousel-item{
+    height: auto;
+}
+.carousel img{
+    min-height: 200px;
+    max-height: 200px;
+    object-fit:cover;
+}
+.w-100 {
+    border-radius: 1em 1em 1em 1em;
+}
+.height-carousel{
+    margin-top: 64px;
 }
 footer{
     background-color: #000;
@@ -82,6 +99,22 @@ img {
     height: auto; 
     max-height: 282px;
     object-fit: cover;
+}
+.carousel-inner{
+    padding-top: 32px;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel img{
+    max-height: 300px;
+    object-fit:cover;
+}
+.w-100 {
+    border-radius: 1em 1em 1em 1em;
+}
+.height-carousel{
+    margin-top: 64px;
 }
 footer .container{
     height: 126px;
