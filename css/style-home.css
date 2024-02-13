@@ -36,7 +36,8 @@
 }
 .cards-home .content-cards-home {
     width: 100%;
-    height: auto;
+    min-height: 882px;
+    height: 366px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -44,13 +45,54 @@
 .cards-home .content-cards-home .card-home{
     width: 100%;
 }
-.cards-home .content-cards-home img {
+.card img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     max-height: 282px;
     object-fit: cover;
     border-radius: 1em;
 }
+.card {
+    width: 100%;
+    height: 100%;
+    float: left;
+    perspective: 500px;
+    border-radius: 1em;
+    background: linear-gradient(0deg, rgb(31, 31, 43) 0%, rgb(47, 48, 59) 100%)
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 1em;
+    background: linear-gradient(0deg, rgb(31, 31, 43) 0%, rgb(47, 48, 59) 100%)
+  }
+  
+  .back {
+    background: #000;
+    color: #f0ba01;
+    transform: rotateY( 180deg );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+  }
+
 footer{
     background-color: #000;
 }
@@ -104,7 +146,8 @@ footer img{
     }
     .cards-home .content-cards-home{
         width: 100%;
-        height: auto;
+        min-height: 366px;
+        height: 366px;
         display: flex;
         flex-direction: row;
         gap: 16px;
