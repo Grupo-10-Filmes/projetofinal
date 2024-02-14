@@ -10,7 +10,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 30px;
 }
 .cards-estreia .content-cards-estreia .card-estreia{
     width: 100%;
@@ -56,7 +56,7 @@ footer img{
         height: auto;
         display: flex;
         flex-direction: row;
-        gap: 16px;
+        gap: 30px;
     }
     .cards-estreia .content-cards-estreia .card-estreia{
         width: 100%;
@@ -67,6 +67,11 @@ footer img{
         max-height: 365px;
         object-fit: cover;
         border-radius: 1em;
+        transition: transform .7s;
+    }
+    .cards-estreia .content-cards-estreia img:hover{
+        transform: scale(1.10);
+        opacity: 0.4;
     }
     footer .container{
         height: 126px;

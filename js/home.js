@@ -5,6 +5,7 @@ const filmeAmor = fetch("https://www.omdbapi.com/?t=amor&apikey=f7713d81")
   .then((dados) => {
     const filmeAmorSrc = document.querySelector(".amor");
     filmeAmorSrc.src = dados.Poster;
+    console.log(dados);
   });
 
 const filmeThor = fetch("https://www.omdbapi.com/?t=thor&apikey=f7713d81")
@@ -14,7 +15,6 @@ const filmeThor = fetch("https://www.omdbapi.com/?t=thor&apikey=f7713d81")
   .then((dados) => {
     const filmeThorSrc = document.querySelector(".thor");
     filmeThorSrc.src = dados.Poster;
-    console.log(dados);
   });
 
 const filmeAvatar = fetch("https://www.omdbapi.com/?t=avatar&apikey=f7713d81")
@@ -24,5 +24,4 @@ const filmeAvatar = fetch("https://www.omdbapi.com/?t=avatar&apikey=f7713d81")
   .then((dados) => {
     const filmeAvatarSrc = document.querySelector(".avatar");
     filmeAvatarSrc.src = dados.Poster;
-    console.log(dados);
   });

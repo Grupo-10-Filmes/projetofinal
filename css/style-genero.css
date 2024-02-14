@@ -28,6 +28,11 @@ img {
     height: auto; 
     max-height: 282px;
     object-fit: cover;
+    transition: transform .7s;
+}
+.cards-generos .content-cards-generos img:hover{
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 .carousel-inner{
     padding-top: 32px;
