@@ -47,6 +47,11 @@ img {
     height: 350px;
     margin: 8px 0px 32px;
     object-fit: cover;
+    transition: transform .7s;
+}
+.vencedor .img-a .aomesmolugar:hover{
+    transform: scale(1.10);
+    opacity: 0.4; 
 }
 
 .indicados .primeira_linha {
@@ -71,6 +76,11 @@ display: inline-block;
 object-fit: cover;
 border-radius: 1em;
 margin-right: 6em;
+transition: transform .7s;
+}
+.indicados .primeira_linha .nada_de_novo_no_front a img:hover{
+    transform: scale(1.10);
+    opacity: 0.4; 
 }
 
 .indicados .primeira_linha .avatar a img {
@@ -80,6 +90,11 @@ display: inline-block;
 object-fit: cover;
 border-radius: 1em;
 margin-right: 6em;
+transition: transform .7s;
+}
+.indicados .primeira_linha .avatar a img:hover {
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 
 .indicados .primeira_linha .os_banshees_de_inisherin a img {
@@ -89,9 +104,12 @@ display: inline-block;
 object-fit: fill;
 border-radius: 1em;
 margin-right: 6em;
+transition: transform .7s;
 }
-
-
+.indicados .primeira_linha .os_banshees_de_inisherin a img:hover {
+    transform: scale(1.10);
+    opacity: 0.4;
+}
 .indicados .segunda_linha {
     width: 100%;
     height: auto;
@@ -112,8 +130,12 @@ padding: 8px 0 12px;
     object-fit: cover;
     border-radius: 1em;
     margin-right: 6em;
+    transition: transform .7s;
 }
-
+.indicados .segunda_linha .elvis a img:hover {
+    transform: scale(1.10);
+    opacity: 0.4;
+}
 .indicados .segunda_linha .fabelmans a img {
     width: 100%;
     height: 15em;
@@ -121,6 +143,11 @@ padding: 8px 0 12px;
     object-fit: cover;
     border-radius: 1em;
     margin-right: 6em;
+    transition: transform .7s;
+}
+.indicados .segunda_linha .fabelmans a img:hover {
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 .indicados .segunda_linha .tár a img {
     width: 100%;
@@ -129,6 +156,11 @@ padding: 8px 0 12px;
     object-fit: cover;
     border-radius: 1em;
     margin-right: 6em;
+    transition: transform .7s;
+}
+.indicados .segunda_linha .tár a img:hover{
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 
 .indicados .terceira_linha {
@@ -149,8 +181,14 @@ padding: 8px 0 12px;
     height: 15em;
     display: inline-block;
     object-fit: cover;
-    border-radius: 1em;    margin-right: 6em;
+    border-radius: 1em;    
+    margin-right: 6em;
+    transition: transform .7s;
     }
+.indicados .terceira_linha .maverick a img:hover{
+    transform: scale(1.10);
+    opacity: 0.4;
+}
 
 .indicados .terceira_linha .triângulo_tristeza a img {
     width: 100%;
@@ -159,6 +197,11 @@ padding: 8px 0 12px;
     object-fit: cover;
     border-radius: 1em;
     margin-right: 6em;
+    transition: transform .7s;
+}
+.indicados .terceira_linha .triângulo_tristeza a img:hover{
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 
 .indicados .terceira_linha .entre_mulheres a img {
@@ -168,6 +211,11 @@ padding: 8px 0 12px;
     object-fit: cover;
     border-radius: 1em;
     margin-right: 6em;
+    transition: transform .7s;
+}
+.indicados .terceira_linha .entre_mulheres a img:hover {
+    transform: scale(1.10);
+    opacity: 0.4;
 }
 
 @media (min-width: 80em) {
