@@ -54,11 +54,6 @@ p {
   padding: 0;
 }
 
-a,
-a:visited {
-  text-decoration: underline;
-}
-
 @media (min-width: 48em) {
     .container {
         width: 100%;
