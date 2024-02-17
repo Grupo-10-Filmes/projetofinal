@@ -91,6 +91,7 @@
   
   .front,
   .back {
+    cursor: pointer;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -201,3 +202,31 @@ footer img{
         height: 60px;
     }
 }
+
+
+/*MODAL BOOTSTRAP*/
+  .modal-header {
+    display: block;
+  }
+  .modal-header h2{
+    color: #000;
+  }
+  .content-modal{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-modal img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .content-modal h3{
+    color: #000;
+    margin: 8px 0;
+  }
+  @media (min-width: 80em) {
+    .content-modal img{
+        height: 400px;
+        object-fit: contain;
+    }
+  }

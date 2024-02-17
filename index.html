@@ -68,50 +68,106 @@
             <div class="container">
                 <h2>Filmes em destaque</h2>
                 <div class="content-cards-home">
-                    <div class="card">
+
+                    <div class="card" data-toggle="modal" data-target="#miModal1">
                         <div class="content">
                             <div class="front">
                                 <img class="amor" src="" alt="Filme Amor">
                             </div>
                             <div class="back">
-                                <h2 class="title-4">THAT'S AMOR</h2>
-                                <h3 class="text-1">Após ficar desempregada e solteira no mesmo dia, Sofia começa do zero e conhece um chef espanhol encantador que pode ser o ingrediente que faltava.
-                                </h3>
-                                <p class="text-2">Estrelando: Riley Dandy,Isaac Gonzalez Rossi,Daniel Edward Mora</p>
+                                <h2 class="title-4 title-amor"></h2>
+                                <h3 class="text-1 descricao"></h3>
+                                <p class="text-2 elenco"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+
+                    <div class="card" data-toggle="modal" data-target="#miModal2">
                         <div class="content">
                             <div class="front">
                                 <img class="thor" src="" alt="filme Thor">
                             </div>
                             <div class="back">
-                                <h2 class="title-4">THOR</h2>
-                                <h3 class="text-1">O filme apresenta Thor em uma jornada diferente de tudo que ele já enfrentou – uma busca pela paz interior. Mas sua aposentadoria é interrompida por
-                                    um assassino galático conhecido como Gorr, o Carniceiro dos Deuses, que busca a extinção dos deuses.
-                                </h3>
-                                <p class="text-2">Estrelando: Chris Hemsworth, Natalie Portman, Tessa Thompson, Christian Bale</p>
+                                <h2 class="title-4 title-thor"></h2>
+                                <h3 class="text-1 descricao-thor"></h3>
+                                <p class="text-2 elenco-thor"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-toggle="modal" data-target="#miModal3">
                         <div class="content">
                             <div class="front">
                                 <img class="avatar" src="" alt="filme Avatar">
                             </div>
                             <div class="back">
-                                <h2 class="title-4">AVATAR</h2>
-                                <h3 class="text-1">Avatar leva-nos ao mundo fantástico de Pandora, onde um homem embarca numa aventura épica e terá de lutar para salvar aqueles que ama e o lugar a que
-                                    agora chama lar.
-                                </h3>
-                                <p class="text-2">Estrelando: Sam WorthingtonZoë SaldanaSigourney WeaverStephen LangMichelle RodriguezGiovanni Ribisi</p>
+                                <h2 class="title-4 title-avatar"></h2>
+                                <h3 class="text-1 descricao-avatar"></h3>
+                                <p class="text-2 elenco-avatar"></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <div class="modal fade" id="miModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2 id="myModalLabel">Filme</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-modal">
+                            <img class="amor" src="" alt="Filme Amor">
+                            <h3 class="title-amor"></h3>
+                            <p class="text-1 descricao"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="miModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2 id="myModalLabel">Filme</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-modal">
+                            <img class="thor" src="" alt="Filme Thor">
+                            <h3 class="title-thor"></h3>
+                            <p class="text-1 descricao-thor"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="miModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2 id="myModalLabel">Filme</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-modal">
+                            <img class="avatar" src="" alt="Filme Avatar">
+                            <h3 class="title-avatar"></h3>
+                            <p class="text-1 descricao-avatar"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container">
