@@ -10,7 +10,7 @@ img {
     height: auto;
 }
 .cards-generos {
-    padding: 0;
+    padding: 17px;
 }
 .cards-generos .container h2 {
     padding: 32px 0 16px; 
@@ -18,7 +18,7 @@ img {
 .cards-generos .content-cards-generos {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
 }
 .cards-generos .content-cards-generos .card-genero {
     flex: 1; 
@@ -28,6 +28,7 @@ img {
     height: auto; 
     max-height: 282px;
     object-fit: cover;
+    border-radius: 1em;
     transition: transform .7s;
 }
 .cards-generos .content-cards-generos img:hover{
@@ -36,6 +37,7 @@ img {
 }
 .carousel-inner{
     padding-top: 32px;
+    padding: 17px;
 }
 .carousel-item{
     height: auto;
@@ -94,7 +96,7 @@ img {
     height: auto;
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 32px;
 }
 .cards-generos .content-cards-generos .card-genero {
     width: 100%;
