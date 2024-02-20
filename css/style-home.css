@@ -152,7 +152,7 @@ footer img{
         height: 530px;
     }
     .hero .content-hero {
-        padding: 84px 64px 32px;
+        padding: 84px 32px 64px 0px;
         margin: 64px 0;
         height: 100%;
     }
