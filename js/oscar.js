@@ -9,7 +9,7 @@
 //   zeroFilmeSrc.src = dados.Poster;
 // });
 
-const primeiroFilme = fetch("http://www.omdbapi.com/?t=front&y=2022&plot=full&apikey=16d07928")
+const primeiroFilme = fetch("http://www.omdbapi.com/?t=Front&apikey=16d07928")
 .then((response) => {
   return response.json();
 })
@@ -19,7 +19,7 @@ const primeiroFilme = fetch("http://www.omdbapi.com/?t=front&y=2022&plot=full&ap
   console.log (dados)
 });
 
-const segundoFilme = fetch("https://www.omdbapi.com/?t=avatar&apikey=16d07928")
+const segundoFilme = fetch("https://www.omdbapi.com/?t=avatar+The+Way+of+Water&apikey=16d07928")
 .then((response) => {
   return response.json();
 })
@@ -28,7 +28,7 @@ const segundoFilme = fetch("https://www.omdbapi.com/?t=avatar&apikey=16d07928")
   segundoFilmeSrc.src = dados.Poster;
 });
 
-const terceiroFilme = fetch("http://www.omdbapi.com/?t=Banshees+&y=2022&plot=full&apikey=16d07928")
+const terceiroFilme = fetch("http://www.omdbapi.com/?t=banshees+of+inisherin&apikey=16d07928")
 .then((response) => {
   return response.json();
 })
@@ -37,7 +37,7 @@ const terceiroFilme = fetch("http://www.omdbapi.com/?t=Banshees+&y=2022&plot=ful
   terceiroFilmeSrc.src = dados.Poster;
 });
 
-const quartoFilme = fetch("http://www.omdbapi.com/?t=elvis&y=2022&apikey=16d07928")
+const quartoFilme = fetch("http://www.omdbapi.com/?t=elvis&apikey=16d07928")
 .then((response) => {
   return response.json();
 })
@@ -46,7 +46,7 @@ const quartoFilme = fetch("http://www.omdbapi.com/?t=elvis&y=2022&apikey=16d0792
   quartoFilmeSrc.src = dados.Poster;
 });
 
-const quintoFilme = fetch("http://www.omdbapi.com/?t=Fabelmans&y=2022&apikey=16d07928")
+const quintoFilme = fetch("http://www.omdbapi.com/?t=The+Fabelmans&apikey=16d07928")
 .then((response) => {
   return response.json();
 })
