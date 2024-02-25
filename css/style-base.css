@@ -57,18 +57,18 @@ p {
   padding: 0;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
     .container {
         width: 100%;
-        max-width: 48em;
+        max-width: 768px;
         margin: 0 auto;
       }
   
   }
-  @media (min-width: 80em) {
+  @media (min-width: 1280px) {
     .container {
       width: 100%;
-      max-width: 80em;
+      max-width: 1280px;
       margin: 0 auto;
       padding: 0 72px;
     }
@@ -173,7 +173,7 @@ p {
     font-size: 10px;
   }
   
-  @media (min-width: 80em) {
+  @media (min-width: 1280px) {
     h1 {
       font-size: 44px;
     }
@@ -221,3 +221,11 @@ p {
     }
   }
 
+  .breadcrumb {
+    background-color: #2e2e3a;
+    padding: 20px 0 0;
+  }
+
+  .breadcrumb-item a{
+    color:#f0d701;
+  }
