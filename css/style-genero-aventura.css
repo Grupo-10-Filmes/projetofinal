@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.content{
+    padding: 30px;
+}
+
 html {
     font-size: 16px;
     line-height: 19px;
@@ -22,13 +26,6 @@ html {
 body{
     overflow-x: hidden;
     color: #fff;
-}
-
-.banner_avatar{
-    width: 300px;
-    height: 180px;
-    margin-top: 50px;
-    margin-bottom: 30px;
 }
 
 main{
@@ -47,7 +44,6 @@ h3{
     color: #fff;
     font-size: 28px;
     line-height: 1.4;
-    margin-top: 30px;
     margin-left: 10px;
 }
 
@@ -57,26 +53,67 @@ ul, li{
     
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 20px;
-    align-items: center;
+@media (max-width:767px){
+    img.banner_avatar{
+        max-width: 350px;
+        height: auto;
+        margin-top: 100px;
+        vertical-align: auto;
+        margin-bottom: 30px;
+    }
+    
+    .container#trailer{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    #trailer img text{
+        max-width: 340px;
+        padding: 30px;
+        justify-content: center;
+    }
+    
+    .filmes_similares{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        border-radius: 1em;
+        margin-bottom: 30px;
+    }
+
 }
 
 
-@media (min-width: 48em) {
-    .container {
+@media (min-width: 768px
+        max-width:1023px) {
+
+    img.banner_avatar{
+        max-width: 1023px;
+        height: auto;
+        margin-top: 100px;
+        vertical-align: bottom;
+        margin-bottom: 30px;
+       }
+
+    .container{
         width: 100%;
         max-width: 48em;
         margin: 0 auto;
-      }
+    }
 
       .banner_avatar{
-        width: 800px;
-        height: 320px;
+        width: auto;
+        
         margin-top: 60px;
         margin-bottom: 30px;
+    }
+
+    .content{
+        padding: 30px;
     }
 
     .content #caracteristicas{
@@ -88,12 +125,19 @@ img {
         justify-content: normal;
         width: 700px;
         margin-bottom: 10px;
+        padding: 30px;
     }
 
-    .trailer{
+    .container #trailer{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    #trailer{
         display: flex;
         flex-direction: row;
-        align-items:center;
+        align-items:flex-start;
         justify-content: center;
         gap: 15px;
         margin-bottom: 60px;
@@ -101,8 +145,11 @@ img {
         transition: transform .7s;
     }
 
-    .trailer .trailer1{
-        width: 50px;
+    #trailer1 #trailer2 #trailer3 img {
+        max-width: 365px;
+        height: 201px;
+        padding-bottom: 20px;
+        align-items:flex-start;
     }
 
     .filmes_similares{
@@ -159,22 +206,32 @@ img {
         opacity: 0.4;
     }
   
-  }
+}
 
-@media (min-width: 80em){
+@media (min-width: 1024px){
+
+    img.banner_avatar{
+        min-width: 1024px;
+        height: auto;
+        margin-top: 100px;
+        vertical-align: bottom;
+        margin-bottom: 30px;
+    }
 
     .container {
         width: 100%;
-        max-width: 80em;
-        margin: 0 auto;
-        padding: 0 72px;
-      }
+    }
 
     .banner_avatar{
         width: 1135px;
         height: 425px;
         margin-top: 60px;
         margin-bottom: 30px;
+    }
+
+    .content{
+        padding: 30px;
+        margin-top: 50px;
     }
 
     .content #caracteristicas{
@@ -193,11 +250,54 @@ img {
         flex-direction: row;
         align-content: center;
         justify-content: center;
+        align-items: flex-start;
         gap: 15px;
-        margin-bottom: 60px;
+        margin-left: 50px;
+        padding-right: 30px;
         object-fit: cover;
         transition: transform .7s;
     }
+
+    #trailer1 #trailer2 #trailer3 img {
+        max-width: 365px;
+        height: 201px;
+        padding-bottom: 20px;
+    }
+
+    #trailer1 img {
+        object-fit: cover;
+        transition: transform .7s;
+        border-radius: 10px;
+    }
+
+    #trailer .trailer1 img:hover{
+        transform: scale(1.10);
+        opacity: 0.4;
+    }
+
+   #trailer2 img {
+        object-fit: cover;
+        transition: transform .7s;
+        border-radius: 10px;
+    }
+
+    #trailer .trailer2 img:hover{
+        transform: scale(1.10);
+        opacity: 0.4;
+    }
+
+    #trailer3 img {
+        object-fit: cover;
+        transition: transform .7s;
+        border-radius: 10px;
+    }
+
+    #trailer .trailer3 img:hover{
+        transform: scale(1.10);
+        opacity: 0.4;
+    }
+
+    
 
     .filmes_similares{
         width: 100%;
