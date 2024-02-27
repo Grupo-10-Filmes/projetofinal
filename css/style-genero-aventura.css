@@ -53,13 +53,18 @@ ul, li{
     
 }
 
-@media (max-width:767px){
-    img.banner_avatar{
-        max-width: 350px;
+.banner_avatar{
+    width: 80%;
+    height: 80%;
+}
+
+@media all and (max-width:767px){
+
+    .banner_avatar{
+        width: 100%;
         height: auto;
-        margin-top: 100px;
-        vertical-align: auto;
-        margin-bottom: 30px;
+        display: block;
+        justify-content: center;
     }
     
     .container#trailer{
@@ -88,33 +93,15 @@ ul, li{
 }
 
 
-@media (min-width: 768px
+@media all and (min-width: 768px
         max-width:1023px) {
 
-    img.banner_avatar{
-        max-width: 1023px;
-        height: auto;
-        margin-top: 100px;
-        vertical-align: bottom;
-        margin-bottom: 30px;
-       }
-
-    .container{
-        width: 100%;
-        max-width: 48em;
-        margin: 0 auto;
-    }
-
-      .banner_avatar{
-        width: auto;
-        
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .content{
-        padding: 30px;
-    }
+        .banner_avatar{
+            width: 100%;
+            height: auto;
+            display: block;
+            justify-content: center;
+        }
 
     .content #caracteristicas{
         display: flex;
@@ -132,6 +119,7 @@ ul, li{
         display: flex;
         flex-direction: column;
         align-items: baseline;
+        text-align: center;
     }
 
     #trailer{
@@ -141,6 +129,7 @@ ul, li{
         justify-content: center;
         gap: 15px;
         margin-bottom: 60px;
+        text-align: center;
         object-fit: cover;
         transition: transform .7s;
     }
@@ -210,28 +199,15 @@ ul, li{
 
 @media (min-width: 1024px){
 
-    img.banner_avatar{
-        min-width: 1024px;
+    .banner_avatar{
+        width: 1024px;
         height: auto;
-        margin-top: 100px;
-        vertical-align: bottom;
-        margin-bottom: 30px;
+        display: block;
+        justify-content: center;
     }
 
     .container {
         width: 100%;
-    }
-
-    .banner_avatar{
-        width: 1135px;
-        height: 425px;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .content{
-        padding: 30px;
-        margin-top: 50px;
     }
 
     .content #caracteristicas{
@@ -253,6 +229,7 @@ ul, li{
         align-items: flex-start;
         gap: 15px;
         margin-left: 50px;
+        margin-bottom: 10px;
         padding-right: 30px;
         object-fit: cover;
         transition: transform .7s;
