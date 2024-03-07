@@ -224,6 +224,7 @@ p {
   .breadcrumb {
     background-color: #2e2e3a;
     padding: 20px 0 0;
+    vertical-align: middle;
   }
 
   .breadcrumb-item a{
