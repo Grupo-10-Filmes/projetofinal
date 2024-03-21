@@ -1,0 +1,66 @@
+body{
+    background: rgb(31,31,43);
+    color: #fff;
+}
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+  }
+.contact-copy {
+    grid-area: contact-copy;
+}
+
+.contact-map {
+    grid-area: contact-map;
+}
+
+.contact-picture {
+    grid-area: contact-picture;
+}
+
+.contact_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template:
+        "contact-copy contact-map contact-map"
+        "contact-picture contact-map contact-map";
+    max-width: 1280px; /* Adicionando a largura máxima */
+    margin: 0 auto; /* Centralizando o container */
+}
+
+@media (max-width: 768px) {
+    .contact_grid {
+        grid-template-columns: repeat(2, auto);
+        grid-auto-rows: repeat(3, auto);
+        grid-template:
+            "contact-picture contact-copy"
+            "contact-map contact-map"
+            "contact-map contact-map";
+    }
+    .contact-picture {
+        justify-self: end;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact_grid {
+        grid-template-columns: auto;
+        grid-auto-rows: repeat(4, auto);
+        grid-template:
+            "contact-picture"
+            "contact-copy"
+            "contact-map"
+            "contact-map";
+    }
+    .contact-picture {
+        transform: scaleX(-1);
+        justify-self: center;
+    }
+    .contact-copy {
+        text-align: center;
+    }
+}
